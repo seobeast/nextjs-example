@@ -13,12 +13,18 @@ A minimal example showing how to use [SEOBeast](https://seobeast.io) as a headle
 
 ## Quick Start
 
-### 1. Clone the repository
+### 1. Clone and install
 
 ```bash
 git clone https://github.com/seobeast/nextjs-example.git
 cd nextjs-example
+
+# Install dependencies (pick one)
+npm install
+# or
 pnpm install
+# or
+yarn install
 ```
 
 ### 2. Configure environment variables
@@ -40,7 +46,11 @@ SEOBEAST_WEBHOOK_SECRET=your-webhook-secret
 ### 3. Run the development server
 
 ```bash
+npm run dev
+# or
 pnpm dev
+# or
+yarn dev
 ```
 
 Visit [http://localhost:3000/blog](http://localhost:3000/blog) to see your posts.
@@ -125,7 +135,7 @@ This is a standard Next.js app and can be deployed to any platform that supports
 - Netlify
 - AWS Amplify
 - Railway
-- Self-hosted with `pnpm build && pnpm start`
+- Self-hosted with `npm run build && npm start`
 
 ## Customization
 
